@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>MIRcarrieSアプリケーションディパーチャー</title>
+<script type="text/javascript">
+
+</script>
+<style>
+ body{
+  text-align: center;
+  background-image: url("back_ground.png");
+  background-size: cover;
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;
+}
+
+ .headline .title{
+  font-size: 150px;
+  color: #660066;
+  display:table-cell;
+  vertical-align:middle;
+  font-family: "arial black";
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+}
+ .headline{
+  display:table;
+  width:100%;
+  height:300px;
+  text-align:center;
+}
+ .space{
+  display:table;
+  width:100%;
+  height:400px;
+}
+ .subject .login{
+   font-size: 125px;
+   display:table-cell;
+   vertical-align:middle;
+}
+ .subject{
+  display:table;
+  width:100%;
+  height:200px;
+  text-align:center;
+}
+
+ .subject .login{
+  font-family: "arial black";
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+}
+ .Departure{
+   text-align:center;
+  font-size:60px;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+  color: #660066;
+}
+ .Departure .Departure_Check{
+  width:100px;
+  height:50px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:50px;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+  color: #660066;S
+}
+ .Departure .SEND{
+  width:500px;
+  padding:15px;
+  font-size:50px;
+}
+ .Departure .Floar{
+  text-align:center;
+  font-size:200px;
+  }
+</style>
+
+</head>
+<body>
+  <div class="space">
+   
+  </div>
+  <div class="headline">
+   <span class="title">MIRcarrieS System</span>
+  </div> 
+  <div class="subject">
+   <!--<span class="login">LOGIN</span>-->
+  </div>
+  <div class="Departure">
+   <span class="Floar">Floar</span>
+   <form action="http://localhost/Floar.php" method="post">
+    <p><label><input type="radio" name="Departure" class="Departure_Check" checked value="1">電子制御工学科棟1F</label></p>
+    <p><label><input type="radio" name="Departure" class="Departure_Check" value="2">電子制御工学科棟2F</label></p>
+    <p><label><input type="radio" name="Departure" class="Departure_Check" value="3">電子制御工学科棟3F</label></p>
+    <p><label><input type="radio" name="Departure" class="Departure_Check" value="4">電子制御工学科棟4F</label></p>
+    <p><input type="submit" class="SEND" value="SEND"></p>
+   </form>
+  </div>
+
+ </body>
+
+</html>

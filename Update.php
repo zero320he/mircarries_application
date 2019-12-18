@@ -5,7 +5,7 @@
 		header('Content-Type: text/html; charset=UTF-8');
 		?>
 		<title>
-			Œ»İ’nXV
+			ç¾åœ¨åœ°æ›´æ–°
 		</title>
 	</head>
 	<body>
@@ -13,9 +13,9 @@
 			echo "hello";
 			echo $_POST["GO"];
 
-				$user = 'root';
-				$pass = 'zeroH13320';
-				$dbnm = 'mircarries';
+				$user = 'mircarries';
+				$pass = 'tartarus02';
+				$dbnm = 'mircarriesdb';
 				$host = 'localhost';
 				$GO1 = filter_input(INPUT_POST,"GO");
 				$GO2 = filter_input(INPUT_POST,"GO");

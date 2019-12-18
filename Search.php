@@ -12,9 +12,9 @@
 <?php
 $dep = filter_input(INPUT_POST, "Departure");
 $arr = filter_input(INPUT_POST, "Arrival");
-$user = 'root';
-$pass = 'zeroH13320';
-$dbnm = 'mircarries';
+$user = 'mircarries';
+$pass = 'tartarus02';
+$dbnm = 'mircarriesdb';
 $host = 'localhost';
 
 $connect = "mysql:host={$host};dbname={$dbnm}";

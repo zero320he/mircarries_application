@@ -19,6 +19,7 @@
 				$host = 'localhost';
 				$GO1 = filter_input(INPUT_POST,"GO");
 				$GO2 = filter_input(INPUT_POST,"GO");
+
 				
 				$connect = "mysql:host={$host};dbname={$dbnm}";
 				
@@ -41,11 +42,12 @@
 		?>		
 		<script type="text/javascript">
 				var GO = <?php echo($_POST["GO"]); ?> ;
+				var area =<?php echo($_POST["area"]); ?> ;
 				switch(GO){
 				    case 0:	
 							function autoLink1()
 							{
-								location.href="http://localhost/MapGO.html";
+								location.href="http://localhost/MapGO_area" + area + ".html";
 							}
 							setTimeout("autoLink1()",100);
 							break;
@@ -53,7 +55,7 @@
 				    case 1:
 							function autoLink2()
 							{
-								location.href="http://localhost/MapSTOP.html";
+								location.href="http://localhost/MapSTOP_area" + area + ".html";
 							}
 							setTimeout("autoLink2()",100);
 							break;
@@ -62,7 +64,7 @@
 
 						function autoLinkD()
 						{
-							location.href="http://localhost/MapGO.html";
+							location.href="http://localhost/MapGO_area" + area + ".html";
 						}
 						setTimeout("autoLinkD()",100);
 						break;

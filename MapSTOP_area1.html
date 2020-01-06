@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>MIRcarrieSアプリケーションマップSTOP_西垣研究室前</title>
+<script type="text/javascript">
+    function autoLink1() {
+        location.href = "area_update.php";
+    }
+    setTimeout("autoLink1()", 60000);
+</script>
+<style>
+ body{
+  text-align: center;
+  background-image: url("back_ground.png");
+  background-size: cover;
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;
+}
+
+ .pass{
+  width:500px;
+  padding:15px;
+  font-size:50px;
+}
+ .headline .title{
+  font-size: 150px;
+  color: #660066;
+  display:table-cell;
+  vertical-align:middle;
+  font-family: "arial black";
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+
+}
+ .map{
+  display:table;
+  background-image: url("NEOMAP1-1.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:900px;
+  text-align:center;
+}
+ .space{
+  display:table;
+  width:100%;
+  height:100px;
+    -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+}
+ .space p {
+  font-size: 200px;
+  color: #660066;
+  vertical-align:middle;
+  font-family: "arial black";
+  text-align:center;
+  line-height: 100px
+
+}
+ .subject .login{
+   font-size: 125px;
+   display:table-cell;
+
+}
+ .subject{
+  display:table;
+  width:100%;
+  height:300px;
+  text-align:center;
+}
+ .password{
+  text-align:center;
+}
+ .subject .login{
+  font-family: "arial black";
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+}
+
+ .STOP{
+  text-align:center;
+  font-size:100px;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+  color: #660066;
+}
+ .STOP .STOP_Check{
+  width:100px;
+  height:100px;
+  vertical-align:middle;
+}
+ .STOP .SEND{
+  width:500px;
+  padding:15px;
+  font-size:50px;
+}
+</style>
+
+</head>
+<body>
+  <div class="space">
+  <p>MAP</p>
+  </div>
+  <div class="map">
+  <!-- <span class="title">MIRcarrieS System</span>-->
+  </div> 
+  <div class="STOP">
+  <p></p>
+   <form action="http://localhost/Update.php" method="post">
+    <input type="checkbox" name="GO" class="STOP_Check" value="0" required >STOP
+    <input type="hidden" name="area" value="1">
+    <p><input type="submit" class="SEND" value="SEND"></p>
+   </form>
+  </div>
+ </body>
+
+</html>

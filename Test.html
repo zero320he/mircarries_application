@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title>MIRcarrieSTest</title>
-<script type="text/javascript">
+    <title>MIRcarrieS Test</title>
+    <script type="text/javascript">
 
-</script>
-<style>
- body{
-  text-align: center;
-  background-image: url("back_ground.png");
-  background-size: cover;
-  background-attachment: fixed;         /* ŒÅ’è */
-  background-position: center center;
-}
+    </script>
+    <style>
+        body {
+            text-align: center;
+            background-image: url("back_ground.png");
+            background-size: cover;
+            background-attachment: fixed; /* å›ºå®š */
+            background-position: center center;
+        }
 
- .headline .title{
-  font-size: 150px;
-  color: #660066;
-  display:table-cell;
-  vertical-align:middle;
-  font-family: "arial black";
-  -webkit-text-stroke: 1px #FFF;
-  text-stroke: 1px #FFF;
-}
- .headline{
-  display:table;
-  width:100%;
-  height:300px;
-  text-align:center;
-}
- .space{
-  display:table;
-  width:100%;
-  height:400px;
-}
+        .headline .title {
+            font-size: 150px;
+            color: #660066;
+            display: table-cell;
+            vertical-align: middle;
+            font-family: "arial black",serif;
+            -webkit-text-stroke: 1px #FFF;
+            text-stroke: 1px #FFF;
+        }
 
- .Test{
-   text-align:center;
-  font-size:60px;
-  -webkit-text-stroke: 1px #FFF;
-  text-stroke: 1px #FFF;
-  color: #660066;
-}
- .Test .Test_Check{
-  width:100px;
-  height:50px;
-  vertical-align:middle;
-  text-align:center;
-  font-size:50px;
-  -webkit-text-stroke: 1px #FFF;
-  text-stroke: 1px #FFF;
-  color: #660066;S
-}
- .Test .SEND{
-  width:500px;
-  padding:15px;
-  font-size:50px;
-}
- .Test .Test_F{
-  text-align:center;
-  font-size:200px;
-  }
-</style>
+        .headline {
+            display: table;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+        }
+
+        .space {
+            display: table;
+            width: 100%;
+            height: 400px;
+        }
+
+        .Test {
+            text-align: center;
+            font-size: 60px;
+            -webkit-text-stroke: 1px #FFF;
+            text-stroke: 1px #FFF;
+            color: #660066;
+        }
+
+        .Test .Test_Check {
+            width: 100px;
+            height: 50px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 50px;
+            -webkit-text-stroke: 1px #FFF;
+            text-stroke: 1px #FFF;
+            color: #660066;
+        }
+
+        .Test .SEND {
+            width: 500px;
+            padding: 15px;
+            font-size: 50px;
+        }
+
+        .Test .Test_F {
+            text-align: center;
+            font-size: 200px;
+        }
+    </style>
 
 </head>
 <body>
-  <div class="space">
-   
-  </div>
-  <div class="headline">
-   <span class="title">MIRcarrieS System</span>
-  </div> 
-  <div class="Test">
-   <span class="Test_F">Test</span>
-   <form action="http://localhost/Test.php" method="post">
-    <p><label><input type="radio" name="Test" class="Test_Check" checked value="1">Test1</label></p>
-    <p><label><input type="radio" name="Test" class="Test_Check" value="2">Test2</label></p>
-    <p><label><input type="radio" name="Test" class="Test_Check" value="3">Test3</label></p>
-    <p><label><input type="radio" name="Test" class="Test_Check" value="4">Test4</label></p>
-    <p><input type="submit" class="SEND" value="SEND"></p>
-   </form>
-  </div>
+<div class="space">
 
- </body>
+</div>
+<div class="headline">
+    <span class="title">MIRcarrieS System</span>
+</div>
+<div class="Test">
+    <span class="Test_F">Test</span>
+    <form action="./Test.php" method="post">
+        <p><label><input type="radio" name="Test" class="Test_Check" checked value="1">Test1</label></p>
+        <p><label><input type="radio" name="Test" class="Test_Check" value="2">Test2</label></p>
+        <p><label><input type="radio" name="Test" class="Test_Check" value="3">Test3</label></p>
+        <p><label><input type="radio" name="Test" class="Test_Check" value="4">Test4</label></p>
+        <p><input type="submit" class="SEND" value="SEND"></p>
+    </form>
+</div>
+
+</body>
 
 </html>

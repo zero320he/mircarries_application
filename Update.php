@@ -15,7 +15,7 @@
 
 				$user = 'root';
 				$pass = 'tartarus02';
-				$dbnm = 'mircarriesdb';
+				$dbnm = 'mircarries';
 				$host = 'localhost';
 				$GO1 = filter_input(INPUT_POST,"GO");
 				$GO2 = filter_input(INPUT_POST,"GO");

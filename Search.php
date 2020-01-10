@@ -15,9 +15,9 @@ $arr = filter_input(INPUT_POST, "Arrival");
 $user = 'mircarries';
 $pass = 'tartarus02';
 $dbnm = 'mircarries';
-$host = '172.21.3.132';
+$host = 'localhost';
 
-$connect = "mysql:host={$host};dbname={$dbnm}";
+$connect = "mysql:host=127.21.3.132;dbname={$dbnm}";
 
 try {
     $pdo = new PDO($connect, $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));

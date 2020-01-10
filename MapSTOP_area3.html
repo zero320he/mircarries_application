@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title>MIRcarrieSアプリケーションマップGO_西垣研究室前</title>
+  <title>MIRcarrieSアプリケーションマップSTOP_4F踊り場</title>
 <script type="text/javascript">
-
+    function autoLink1() {
+        location.href = "area_update.php";
+    }
+    setTimeout("autoLink1()", 60000);
 </script>
 <style>
  body{
@@ -35,7 +38,6 @@
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-
   width:100%;
   height:900px;
   text-align:center;
@@ -76,19 +78,19 @@
   text-stroke: 1px #FFF;
 }
 
- .GO{
+ .STOP{
   text-align:center;
   font-size:100px;
   -webkit-text-stroke: 1px #FFF;
   text-stroke: 1px #FFF;
   color: #660066;
 }
- .GO .GO_Check{
+ .STOP .STOP_Check{
   width:100px;
   height:100px;
   vertical-align:middle;
 }
- .GO .SEND{
+ .STOP .SEND{
   width:500px;
   padding:15px;
   font-size:50px;
@@ -103,10 +105,10 @@
   <div class="map">
   <!-- <span class="title">MIRcarrieS System</span>-->
   </div> 
-  <div class="GO">
+  <div class="STOP">
   <p></p>
    <form action="http://172.21.3.132/Update.php" method="post">
-    <input type="checkbox" name="GO" class="GO_Check" value="1" required >GO1
+    <input type="checkbox" name="GO" class="STOP_Check" value="0" required >STOP3
     <input type="hidden" name="area" value="1">
     <p><input type="submit" class="SEND" value="SEND"></p>
    </form>

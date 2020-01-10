@@ -49,7 +49,7 @@
 							{
 								location.href="http://172.21.3.132/MapGO_area" + area + ".html";
 							}
-							setTimeout("autoLink1()",100);
+							setTimeout("autoLink1()",1000);
 							break;
 				    
 				    case 1:
@@ -57,7 +57,7 @@
 							{
 								location.href="http://172.21.3.132/MapSTOP_area" + area + ".html";
 							}
-							setTimeout("autoLink2()",100);
+							setTimeout("autoLink2()",1000);
 							break;
 							
 					default:
@@ -66,7 +66,7 @@
 						{
 							location.href="http://172.21.3.132/MapGO_area" + area + ".html";
 						}
-						setTimeout("autoLinkD()",100);
+						setTimeout("autoLinkD()",1000);
 						break;
 
 			    }			

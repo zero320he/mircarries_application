@@ -15,7 +15,7 @@ $arr = filter_input(INPUT_POST, "Arrival");
 $user = 'mircarries';
 $pass = 'tartarus02';
 $dbnm = 'mircarries';
-$host = 'localhost';
+$host = '172.21.3.132';
 
 $connect = "mysql:host={$host};dbname={$dbnm}";
 

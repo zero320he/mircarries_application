@@ -13,7 +13,7 @@
 			echo "hello";
 			echo $_POST["GO"];
 
-				$user = 'mircarries';
+				$user = 'root';
 				$pass = 'tartarus02';
 				$dbnm = 'mircarriesdb';
 				$host = 'localhost';
@@ -47,7 +47,7 @@
 				    case 0:	
 							function autoLink1()
 							{
-								location.href="http://localhost/MapGO_area" + area + ".html";
+								location.href="http://172.21.3.132/MapGO_area" + area + ".html";
 							}
 							setTimeout("autoLink1()",100);
 							break;
@@ -55,7 +55,7 @@
 				    case 1:
 							function autoLink2()
 							{
-								location.href="http://localhost/MapSTOP_area" + area + ".html";
+								location.href="http://172.21.3.132/MapSTOP_area" + area + ".html";
 							}
 							setTimeout("autoLink2()",100);
 							break;
@@ -64,7 +64,7 @@
 
 						function autoLinkD()
 						{
-							location.href="http://localhost/MapGO_area" + area + ".html";
+							location.href="http://172.21.3.132/MapGO_area" + area + ".html";
 						}
 						setTimeout("autoLinkD()",100);
 						break;

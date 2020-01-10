@@ -58,7 +58,7 @@ try {
         case 1:
 
         function autoLink1() {
-            location.href = "http://localhost/MapSTOP_area1.html";
+            location.href = "http://172.21.3.132/MapSTOP_area1.html";
         }
 
             setTimeout("autoLink1()", 100);
@@ -67,7 +67,7 @@ try {
         case 2:
 
         function autoLink2() {
-            location.href = "http://localhost/Search.html";
+            location.href = "http://172.21.3.132/Search.html";
         }
 
             setTimeout("autoLink2()", 100);
@@ -76,7 +76,7 @@ try {
         case 3:
 
         function autoLink3() {
-            location.href = "http://localhost/Search.html";
+            location.href = "http://172.21.3.132/Search.html";
         }
 
             setTimeout("autoLink3()", 100);
@@ -85,7 +85,7 @@ try {
         case 4:
 
         function autoLink4() {
-            location.href = "http://localhost/Search.html";
+            location.href = "http://172.21.3.132/Search.html";
         }
 
             setTimeout("autoLink4()", 100);
@@ -94,7 +94,7 @@ try {
         default:
 
         function autoLinkD() {
-            location.href = "http://localhost/Search.html";
+            location.href = "http://172.21.3.132/Search.html";
         }
 
             setTimeout("autoLinkD()", 100);

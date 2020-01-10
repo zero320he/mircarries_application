@@ -17,7 +17,7 @@ $pass = 'tartarus02';
 $dbnm = 'mircarries';
 $host = 'localhost';
 
-$connect = "mysql:host={$host};port=3306;dbname={$dbnm}";
+$connect = "mysql:host={$host};port=3306;dbname={$dbnm} charset=utf8";
 
 try {
     $pdo = new PDO($connect, $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));

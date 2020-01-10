@@ -12,7 +12,7 @@
 <?php
 $dep = filter_input(INPUT_POST, "Departure");
 $arr = filter_input(INPUT_POST, "Arrival");
-$user = 'mircarries';
+$user = 'root';
 $pass = 'tartarus02';
 $dbnm = 'mircarries';
 $host = 'localhost';

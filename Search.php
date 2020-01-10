@@ -14,7 +14,7 @@ $dep = filter_input(INPUT_POST, "Departure");
 $arr = filter_input(INPUT_POST, "Arrival");
 $user = 'mircarries';
 $pass = 'tartarus02';
-$dbnm = 'mircarriesdb';
+$dbnm = 'mircarries';
 $host = 'localhost';
 
 $connect = "mysql:host={$host};dbname={$dbnm}";
@@ -58,7 +58,7 @@ try {
         case 1:
 
         function autoLink1() {
-            location.href = "http://localhost/index.html";
+            location.href = "http://localhost/MapSTOP_area1.html";
         }
 
             setTimeout("autoLink1()", 100);
@@ -67,7 +67,7 @@ try {
         case 2:
 
         function autoLink2() {
-            location.href = "http://localhost/stop.html";
+            location.href = "http://localhost/Search.html";
         }
 
             setTimeout("autoLink2()", 100);
@@ -76,7 +76,7 @@ try {
         case 3:
 
         function autoLink3() {
-            location.href = "http://localhost/Map.html";
+            location.href = "http://localhost/Search.html";
         }
 
             setTimeout("autoLink3()", 100);
@@ -85,7 +85,7 @@ try {
         case 4:
 
         function autoLink4() {
-            location.href = "http://localhost/Departure.html";
+            location.href = "http://localhost/Search.html";
         }
 
             setTimeout("autoLink4()", 100);

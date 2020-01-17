@@ -5,7 +5,7 @@
     header('Content-Type: text/html; charset=UTF-8');
     ?>
     <title>
-        ルート検索
+        Root Search
     </title>
 </head>
 <body>

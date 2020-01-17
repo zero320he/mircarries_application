@@ -85,6 +85,7 @@ try {
         }
             setTimeout("autoLink4()", 100);
             break;
+        case 6:
 
         function autoLink6() {
             location.href = "http://172.21.3.132/finish.html";

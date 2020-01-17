@@ -3,7 +3,10 @@
 <head>
     <title>MIRcarrieS Application</title>
     <script type="text/javascript">
-
+        function winClose() {
+            open(location,'_self').close();
+        }
+        setTimeout("winClose()", 60000);
     </script>
     <style>
         body {

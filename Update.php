@@ -5,7 +5,7 @@
 		header('Content-Type: text/html; charset=UTF-8');
 		?>
 		<title>
-			現在地更新
+
 		</title>
 	</head>
 	<body>

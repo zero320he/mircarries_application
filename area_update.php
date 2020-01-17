@@ -83,14 +83,14 @@ try {
         function autoLink5() {
             location.href = "http://172.21.3.132/MapSTOP_area5.html";
         }
-            setTimeout("autoLink4()", 100);
+            setTimeout("autoLink5()", 100);
             break;
         case 6:
 
         function autoLink6() {
             location.href = "http://172.21.3.132/finish.html";
         }
-            setTimeout("autoLink4()", 100);
+            setTimeout("autoLink6()", 100);
             break;
         default:
 
